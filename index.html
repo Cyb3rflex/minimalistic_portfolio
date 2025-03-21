@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Protest+Strike&display=swap"
+      rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="img-light">
+      <img src="spotlight.png" alt="Left Spotlight" class="left-img" />
+      <img src="spotlight 2.png" alt="Right Spotlight" class="right-img" />
+    </div>
+
+    <!-- NAVBAR -->
+    <nav>
+      <ul class="nav-links">
+        <li
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1000">
+          <a href="#About">About</a>
+        </li>
+        <li
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500">
+          <a href="#Projects">Projects</a>
+        </li>
+        <li
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="2000">
+          <a href="#Testimonials">Testimonials</a>
+        </li>
+        <li
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="2500">
+          <a href="#Contact">Contact</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- Header -->
+    <header
+      id="About"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1000">
+      <p
+        data-aos="fade-down"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        class="roboto-header_text">
+        Dynamic Web Magic with Html, Css, and Js
+      </p>
+      <h2
+        data-aos="flip-right"
+        data-aos-easing="ease-in-out"
+        data-aos-duration="1500">
+        Transforming Concepts into Seamless <span>User Experiences</span>
+      </h2>
+      <h6
+        data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1500">
+        Hi! I’m Abdulmuheez, a Full Stack Developer based in Nigeria.
+      </h6>
+      <button
+        data-aos="fade-down-left"
+        data-aos-easing="linear"
+        data-aos-duration="1500"
+        class="header_btn">
+        See my work
+      </button>
+    </header>
+    <!-- Grid Section Below -->
+    <section class="grid-container" id="About">
+      <div
+        class="grid-item large"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-out">
+        <img src="box1.png" alt="Collaboration Image" />
+      </div>
+      <div
+        class="grid-item small"
+        data-aos="fade-left"
+        data-aos-easing="ease-out-cubic">
+        <img src="box2.png" alt="Tech Stack Image" />
+      </div>
+      <div
+        class="grid-item small"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-out">
+        <img src="box3.png" alt="Communication Image" />
+      </div>
+    </section>
+    <!-- New 3-Image Grid Section -->
+    <section class="new-grid-container">
+      <div
+        class="new-grid-item box4"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-out">
+        <img src="box4.png" alt="Tech enthusiast" />
+      </div>
+      <div
+        class="grid-item large box5"
+        data-aos="fade-left"
+        data-aos-easing="ease-in-out">
+        <p
+          class="inside-scoop"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out">
+          Do you want to start a project together?
+        </p>
+        <button
+          class="copy-email-btn"
+          id="copyEmailBtn"
+          data-aos="fade-down-left"
+          data-aos-easing="linear">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-clipboard"
+            viewBox="0 0 16 16">
+            <path
+              d="M10 1.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 1 .5.5V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V3.5a.5.5 0 0 1 .5-.5h2a.5.5 0 0 0 .5-.5v-1h4z" />
+            <path
+              d="M9.5 1a.5.5 0 0 0-.5.5v1H7v-1a.5.5 0 0 0-.5-.5h-3A1.5 1.5 0 0 0 2 2.5V14a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2.5A1.5 1.5 0 0 0 12.5 1h-3z" />
+          </svg>
+          Copy my email address
+        </button>
+      </div>
+
+      <div
+        class="new-grid-item box6"
+        data-aos="fade-right"
+        data-aos-easing="ease-in-out">
+        <img src="box6.png" alt="Currently building a JS library" />
+      </div>
+    </section>
+    <!-- TESTIMONIAL SECTION -->
+    <section class="testimonials" id="Testimonials">
+      <h2 data-aos="fade-up" data-aos-easing="linear">
+        Kind words from <span>satisfied clients</span>
+      </h2>
+      <div class="slider">
+        <div class="testimonials-container slider-track">
+          <div class="testimonial-card">
+            <p>
+              Working with Abdulmuheez has been a game-changer for our business.
+              His expertise and attention to detail ensured a seamless process
+              from start to finish. Highly recommended!
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <p>
+              Working with Abdulmuheez has been a game-changer for our business.
+              His expertise and attention to detail ensured a seamless process
+              from start to finish. Highly recommended!
+            </p>
+          </div>
+
+          <div class="testimonial-card">
+            <p>
+              Abdulmuheez's ability to understand our needs and translate them
+              into an amazing digital experience was incredible. His work
+              exceeded our expectations!
+            </p>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              Abdulmuheez's ability to understand our needs and translate them
+              into an amazing digital experience was incredible. His work
+              exceeded our expectations!
+            </p>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              Abdulmuheez's ability to understand our needs and translate them
+              into an amazing digital experience was incredible. His work
+              exceeded our expectations!
+            </p>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              Abdulmuheez's ability to understand our needs and translate them
+              into an amazing digital experience was incredible. His work
+              exceeded our expectations!
+            </p>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              Abdulmuheez's ability to understand our needs and translate them
+              into an amazing digital experience was incredible. His work
+              exceeded our expectations!
+            </p>
+          </div>
+          <div class="testimonial-card">
+            <p>
+              Abdulmuheez's ability to understand our needs and translate them
+              into an amazing digital experience was incredible. His work
+              exceeded our expectations!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTNERS SECTION -->
+    <section class="partners">
+      <div class="partners-container">
+        <div
+          class="partner-item"
+          data-aos="fade-down-right"
+          data-aos-easing="linear">
+          <img class="ico1" src="icon1.png" class="partner-logo" />
+          <span>Cloudinary</span>
+        </div>
+        <div
+          class="partner-item"
+          data-aos="fade-down-left"
+          data-aos-easing="ease-in-out">
+          <img class="ico2" src="icon2.png" class="partner-logo" />
+          <span>Hostinger</span>
+        </div>
+        <div
+          class="partner-item"
+          data-aos="fade-down"
+          data-aos-easing="ease-out-cubic">
+          <img class="ico3" src="icon3.png" class="partner-logo" />
+          <span>stream</span>
+        </div>
+        <div
+          class="partner-item"
+          data-aos="fade-up"
+          data-aos-easing="ease-in-out">
+          <img class="ico4" src="icon4.png" class="partner-logo" />
+          <span>docker</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- work experience -->
+    <section class="work-experience">
+      <h2 data-aos="fade-down-right" data-aos-easing="linear">
+        My <span>Work Experience</span>
+      </h2>
+
+      <div class="work-experience-wrapper">
+        <div class="work-experience-column">
+          <div
+            class="work-experience-item"
+            data-aos="fade-down-right"
+            data-aos-easing="ease-in-out">
+            <img src="group1.png" ; alt="Frontend Icon" class="work-icon" />
+            <div class="work-text">
+              <h3 data-aos="fade-up" data-aos-easing="ease-in-out">
+                Frontend Engineer Intern
+              </h3>
+              <p data-aos="fade-down" data-aos-easing="ease-out-cubic">
+                <span>CyberHub</span><br />August 2024 - Present
+              </p>
+              <p data-aos="fade-down-right" data-aos-easing="ease-in-out">
+                Assisted in developing a web-based platform using React.js.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="work-experience-item"
+            data-aos="fade-down-left"
+            data-aos-easing="ease-in-out">
+            <img src="group2.png" ; alt="Mobile Dev Icon" class="work-icon" />
+            <div class="work-text">
+              <h3 data-aos="fade-up" data-aos-easing="ease-in-out">
+                Mobile App Dev
+              </h3>
+              <p data-aos="fade-down" data-aos-easing="ease-out-cubic">
+                <span>CyberHub</span><br />January 2025 - Present
+              </p>
+              <p data-aos="fade-down-right" data-aos-easing="ease-in-out">
+                Designed and developed mobile apps for iOS & Android using React
+                Native.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Connector -->
+        <div class="timeline"></div>
+        <div class="work-experience-column">
+          <div
+            class="work-experience-item"
+            data-aos="flip-right"
+            data-aos-easing="ease-in-out">
+            <img src="group3.png" ; alt="Freelance Icon" class="work-icon" />
+            <div class="work-text">
+              <h3 data-aos="fade-up" data-aos-easing="ease-in-out">
+                Freelance App Dev Project
+              </h3>
+              <p data-aos="fade-down" data-aos-easing="ease-out-cubic">
+                <span>Independent</span><br />July 2024 - January 2025
+              </p>
+              <p data-aos="fade-down-right" data-aos-easing="ease-in-out">
+                Led the dev of a mobile app from concept to app store
+                deployment.
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="work-experience-item"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic">
+            <img src="group4.png";" alt="Lead Dev Icon" class="work-icon" />
+            <div class="work-text">
+              <h3 data-aos="fade-up" data-aos-easing="ease-in-out">
+                Lead Frontend Developer
+              </h3>
+              <p data-aos="fade-down" data-aos-easing="ease-out-cubic">
+                <span>CyberHub</span><br />August 2024 - July 2018
+              </p>
+              <p data-aos="fade-down-right" data-aos-easing="ease-in-out">
+                Developed and maintained user-facing features with modern
+                frontend tech.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- APPROACH SECTION -->
+    <section class="approach-section">
+      <h2 data-aos="fade-down-right" data-aos-easing="ease-in-out">
+        My <span>Approach</span>
+      </h2>
+
+      <!-- Just to create scroll effect -->
+      <div class="spacer"></div>
+
+      <div class="cards-container" id="cards">
+        <div class="card">
+          <span class="phase-text">Phase 1</span>
+          <div class="overlay">
+            <h3>Planning & Strategy</h3>
+            <p>Understanding the project scope and setting goals.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <span class="phase-text">Phase 2</span>
+          <div class="overlay">
+            <h3>Development & Progress</h3>
+            <p>Coding and updating every step of the way.</p>
+          </div>
+        </div>
+
+        <div class="card">
+          <span class="phase-text">Phase 3</span>
+          <div class="overlay">
+            <h3>Launch & Delivery</h3>
+            <p>Final testing and deployment of the project.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section before footer -->
+    <section class="before-footer" id="Contact">
+      <h3 data-aos="zoom-in-down">
+        Ready to take <span>your</span> digital presence to the next level?
+      </h3>
+      <p data-aos="zoom-in-up">
+        Reach out to me today and let's discuss how I can help you achieve your
+        goals.
+      </p>
+      <button
+        data-aos="flip-right"
+        class="header_btn"
+        onclick="window.location.href='mailto:cybrflex@email.com?subject=Lets%20Work%20Together&body=Hi,%20I%20would%20love%20to%20discuss%20a%20project%20with%20you!';">
+        Contact Me Now
+      </button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <!-- Left: Copyright Text -->
+      <p class="copyright">&copy; 2025 Abdulmuheez. All rights reserved.</p>
+
+      <!-- Right: Social Icons -->
+      <div class="social-icons">
+        <a href="https://github.com/cyb3rflex/" target="_blank">
+          <div
+            data-aos="fade-down"
+            data-aos-anchor-placement="bottom-bottom"
+            class="icon"
+            id="github-animation"
+            style="width: 100px; height: 100px"></div>
+        </a>
+        <a href="https://wa.me/2349160933706" target="_blank">
+          <div
+            data-aos="fade-down"
+            data-aos-anchor-placement="bottom-bottom"
+            class="icon"
+            id="whatsapp-animation"
+            style="width: 100px; height: 100px"></div>
+        </a>
+        <a
+          href="https://ng.linkedin.com/in/abdulmuheez-qazeem-493676340"
+          target="_blank">
+          <div
+            data-aos="fade-down"
+            data-aos-anchor-placement="bottom-bottom"
+            class="icon"
+            id="linkedin-animation"
+            style="width: 100px; height: 100px"></div>
+        </a>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.6/lottie.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
