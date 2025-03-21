@@ -8,6 +8,10 @@
 
 This project is a **modern, responsive personal portfolio website** showcasing my skills, projects, and testimonials. It features smooth animations, an interactive design, and easy navigation to different sections.
 
+# Project SneekPeek
+
+![Alt Text](https://minimalistic-portfolio-ebon.vercel.app/red1.png)
+
 ## 🌟 Features
 
 - **Responsive Design** – Fully optimized for mobile and desktop users.
